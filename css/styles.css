@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+
+
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+}
+
+.imagen {
+    height: 400px;
+    width: 600px;
+}
+
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+}
+.biografia {
+    width: 450px;
+}
