@@ -172,16 +172,30 @@ a:hover{
     display: flex;
     justify-content: center;
     margin-top: 3em;
-    padding: 3em 0;
+    padding: 6em 0;
     background-color: #f8f9fa;
 }
 
+/* Footer */
 
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.footer-p{
+    padding-top: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
 
+.logo-footer{
+    width: 100px;
+}
 
-
-
+.container-redes{
+    display: flex;
+}
 
 
 
