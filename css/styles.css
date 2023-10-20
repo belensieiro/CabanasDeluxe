@@ -321,9 +321,9 @@ tr:hover td { background: #d0dafd; color: #339; }
 
 
 /* MEDIA QUERIES */
-
-/* Menú hambuguesa */
+/* INDEX */
 @media screen and (max-width: 768px) {
+    /* Menú hambuguesa */
     .navbar {
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -359,5 +359,34 @@ tr:hover td { background: #d0dafd; color: #339; }
     .logo {
         margin: 0;
         margin-left: 10px;
+    }
+
+    /* intro-container */
+    .index-subtitle{
+        font-size: 25px;
+    }
+
+    .intro{
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        padding: 5px 20px;
+        margin: 0px;
+    }
+
+    /* Cards cabañas */
+    .title-cabañas{
+        text-align: center;
+        padding: 1px;
+        margin-top: 50px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    
+    .text-cabañas{
+        text-align: right;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        padding: 1px;
     }
 }
