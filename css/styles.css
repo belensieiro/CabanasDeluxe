@@ -247,10 +247,6 @@ input, textarea {
     outline: none;
 }
     
-input ::placeholder, textarea ::placeholder{
-    color:rgb(2, 43, 5);
-}
-    
 .form-txt {
     margin-bottom: 30px;
     display: flex;
@@ -277,17 +273,10 @@ input ::placeholder, textarea ::placeholder{
     margin: 10px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.btn-formulario:hover{
+    background: #c7a598b9; 
+    color: white;
+}
 
 
 /* CABAÑAS */
