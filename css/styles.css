@@ -25,25 +25,30 @@ a:hover{
 /* INDEX */
 /* navbar */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FFF5E9;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    padding: 10px 20px;
 }
 
-.logo{
+.logo {
     width: 100px;
     height: 80px;
-    margin-left: 100px;
 }
 
-.navbar-menu{
+.navbar-menu {
     display: flex;
     gap: 15px;
-    margin-right: 100px;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
 }
 
 /* Slider */
@@ -309,4 +314,50 @@ tr:hover td { background: #d0dafd; color: #339; }
 
 .biografia {
     width: 450px;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* Menú hambuguesa */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .navbar-menu {
+        display: none;
+        background-color: #FFF5E9;
+        width: 100%;
+        position: absolute;
+        top: 100px; 
+        left: 0;
+        z-index: 1;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .mobile-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+        margin-right: 10px;
+    }
+
+    .logo {
+        margin: 0;
+        margin-left: 10px;
+    }
 }
