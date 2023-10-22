@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cabañas Deluxe | Servicios</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div>
+                <img class="logo" src="../assets/logo.png" alt="logo cabañas deluxe">
+            </div>
+            <ul class="navbar-menu">
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="cabañas.html">CABAÑAS</a>
+                </li>
+                <li>
+                    <a href="servicios.html">SERVICIOS</a>
+                </li>
+                <li>
+                    <a href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Banner-->
+       <section class="servicios__banner">
+            <img class="servicios__banner-img" src="../images/bannerservicios.jpg">
+            <span class="servicios__banner-text">SERVICIOS</span>
+       </section>
+       <!--Main-->
+       <section class="servicios__main container">
+            <!--Translado-->
+            <div class="servicios__main-container">
+                <div class="servicios__main-text">Translado</div>
+                <div class="servicios__main-grid-container servicios__main-containercolor">
+                    <img class="servicios__main-container-img"  src="../images/traslado.jpg">
+                    <div class="servicios__main-container-text">En nuestras Cabañas Deluxe, el lujo se extiende a cada detalle, incluyendo nuestros servicios de traslado. Relájate desde el momento en que llegas, mientras nuestros profesionales te llevan de forma segura y cómoda desde el punto de llegada hasta tu refugio de ensueño en medio de la naturaleza, garantizándote un inicio perfecto para tu escapada de lujo.</div>
+                </div>
+            </div>
+            <!--Bufet-->
+            <div class="servicios__main-container-reverse">
+                <div class="servicios__main-container-reverse-main">
+                    <div class="servicios__main-text" style="text-align: end;">Bufet</div>
+                    <div class="servicios__main-container">
+                        <div class="servicios__main-grid-container-reverse servicios__main-containercolor">
+                            <div style="position: relative; height: 400px;">
+                                <div id="bufetMenu" style="position: absolute; width: 50%; right: 0;" class="servicios__main-contextmenu servicios__main-containercolor">
+                                    <div style="display: flex; align-items: center; justify-content: space-between;">Horarios Bufet <i class="fa-solid fa-xmark  servicios__main-contextmenu-icon-close" onclick="AlterMenu('bufetMenu', false)"></i></div>
+                                    <div class="servicios__main-contextmenu-item">Desayuno: <span>08:30hs - 10:30hs</span></div>
+                                    <div class="servicios__main-contextmenu-item">Almuerzo: <span>13:30hs - 15:30hs</span></div>
+                                    <div class="servicios__main-contextmenu-item">Cena: <span>20:30hs - 22:30hs</span></div>
+                                </div>
+                                <img class="servicios__main-container-img" src="../images/buffet.png">
+                                <i class="fa-regular fa-circle-question servicios__main-contextmenu-icon" onclick="AlterMenu('bufetMenu', true)"></i>
+                            </div>
+                            <div class="servicios__main-container-text item-reverse" style="position: relative;">En nuestras cabañas de lujo, la experiencia culinaria es tan impresionante como el entorno natural que te rodea. Nuestros servicios de bufet ofrecen una exquisita selección de platillos gourmet diseñados para deleitar tus sentidos. Ya sea disfrutando de una cena íntima bajo el cielo estrellado o de un desayuno con vistas panorámicas, nuestro talentoso equipo de chefs ha creado un menú excepcional que combina la frescura de la naturaleza con la sofisticación culinaria. Cada bocado es una invitación a la indulgencia, donde el lujo y la belleza se unen en perfecta armonía en cada plato que servimos.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Actividades-->
+            <div class="servicios__main-container">
+                <div class="servicios__main-text">Actividades</div>
+                <div class="servicios__main-grid-container servicios__main-containercolor">
+                    <div style="position: relative; height: 400px;">
+                        <div id="sevicioMenu" style="position: absolute; width: 50%; left: 0; font-family: 'Oswald', sans-serif;" class="servicios__main-contextmenu servicios__main-containercolor">
+                            <div style="display: flex; align-items: center; justify-content: space-between;">Actividades <i class="fa-solid fa-xmark  servicios__main-contextmenu-icon-close" onclick="AlterMenu('sevicioMenu', false)"></i></div>
+                            <ul class="servicios__main-container-list">
+                                <li>Piscina climatizada</li>
+                                <li>Servicio de masajes</li>
+                                <li>Contratación de excursiones</li>
+                                <li>Quincho techado y asadores</li>
+                                <li>Informador turístico</li>
+                                <li>Play Room</li>
+                            </ul>
+                        </div>
+                        <img class="servicios__main-container-img" src="../images/playroom.jpg">
+                        <i class="fa-regular fa-circle-question servicios__main-contextmenu-icon" style="left: 10px;" onclick="AlterMenu('sevicioMenu', true)"></i>
+                    </div>
+                    <div class="servicios__main-container-text " style="position: relative;">Disfruta de una amplia gama de servicios pensados para enriquecer tu estadía. Desde relajantes masajes hasta emocionantes excursiones, tenemos todo para que tu escapada sea inolvidable. Mientras te relajas, nuestros profesionales cuidarán de tus pequeños. Por la noche, cena shows y entretenimiento, mientras los niños se divierten en nuestros playrooms. Te ofrecemos mucho más que una cabaña, te ofrecemos una experiencia inigualable.</div>
+                </div>
+            </div>
+                
+            <!--Seguridad-->
+            <div class="servicios__main-container-reverse">
+                <div class="servicios__main-container-reverse-main">
+                    <div class="servicios__main-text" style="text-align: end;">Seguridad</div>
+                    <div class="servicios__main-container">
+                        <div class="servicios__main-grid-container-reverse servicios__main-containercolor">
+                            <img class="servicios__main-container-img" src="../images/seguridad.jpg">
+                            <div class="servicios__main-container-text item-reverse" style="position: relative;">La tranquilidad y la seguridad de nuestros huéspedes son nuestra máxima prioridad. En nuestras cabañas de lujo, puedes relajarte y disfrutar de la belleza de la naturaleza con total confianza. Nuestro compromiso con la seguridad se refleja en cada detalle, desde la supervisión constante de nuestras instalaciones hasta la privacidad garantizada. Además, hemos implementado medidas de seguridad de vanguardia para que te sientas protegido en todo momento. Así, tu escapada de lujo en medio de la naturaleza es una experiencia verdaderamente relajante y sin preocupaciones, donde la belleza y la serenidad se combinan con la tranquilidad.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Mas serivcios-->
+            <div class="servicios__main-mas">
+                <div class="servicios__main-text">Más servicios...</div>
+                <div class="servicios__main-mas-container">
+                    <div class="servicios__main-mas-card servicios__main-containercolor" style="width: 100%">
+                        <img src="../images/wifi.jpg">
+                        <span>Wifi gratis</span>
+                    </div>
+                    <div class="servicios__main-mas-card servicios__main-containercolor" style="width: 100%">
+                        <img src="../images/copabienvenida.jpg">
+                        <span>Copa de bienvenida</span>
+                    </div>
+                    <div class="servicios__main-mas-card servicios__main-containercolor" style="width: 100%">
+                        <img src="../images/supermercado.jpg">
+                        <span>Supermercado en el predio</span>
+                    </div>
+                    <div class="servicios__main-mas-card servicios__main-containercolor" style="width: 100%">
+                        <img src="../images/lavanderia.jpg">
+                        <span>Lavandería</span>
+                    </div>
+                    <div class="servicios__main-mas-card servicios__main-containercolor" style="width: 100%">
+                        <img src="../images/accesoriosbebes.jpg">
+                        <span>Accesorios para bebés</span>
+                    </div>
+                    <div class="servicios__main-mas-card servicios__main-containercolor" style="width: 100%">
+                        <img src="../images/cocheracubierta.jpg">
+                        <span>Cochera cubierta</span>
+                    </div>
+                    <div class="servicios__main-mas-card servicios__main-containercolor" style="width: 100%">
+                        <img src="../images/departamentosadaptados.jpg">
+                        <span>Departamentos adaptados</span>
+                    </div>
+                    <div class="servicios__main-mas-card servicios__main-containercolor" style="width: 100%">
+                        <img src="../images/guardaequipaje.jpg">
+                        <span>Guarda equipaje</span>
+                    </div>
+                </div>
+            </div>
+       </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div>
+            <a href="mailto:cabañasdeluxe@contacto.ar" target="_blank">
+                <p class="footer-p"> <b>cabañasdeluxe</b></p>
+            </a>
+        </div>
+        <div>
+            <a href="../index.html">
+                <img class="logo-footer" src="../assets/logo.png" alt="logo cabañas deluxe">
+            </a>
+        </div>
+        <div class="container-redes">
+            <div>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-solid fa-square-phone fa-xl" style="color: #000000;"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-twitter fa-xl" style="color: #000000;"></i>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook fa-xl" style="color: #000000;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/servicios.js"></script>
+</body>
+</html>
