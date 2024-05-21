@@ -2,7 +2,7 @@
 <h1>Cabañas Delux</h1>
 
 <h3> Enlace directo a la página:</h3>
-https://belensieiro.github.io/CabanasDeluxe-Grupo19/
+https://belensieiro.github.io/CabanasDeluxe/
 
 <h2>Descripción General</h2>
 <p><b>Cabañas Deluxe </b> es un proyecto de página web pensado para una empresa 
