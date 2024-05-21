@@ -1,5 +1,5 @@
 
-<h1>Cabañas Delux - Grupo 19</h1>
+<h1>Cabañas Delux</h1>
 
 <h3> Enlace directo a la página:</h3>
 https://belensieiro.github.io/CabanasDeluxe-Grupo19/
