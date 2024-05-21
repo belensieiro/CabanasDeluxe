@@ -28,22 +28,3 @@ cabañas que ofrecen diferentes servicios y actividades.
     <li>JavaScript</li>
 </ul>
 
-<h2> Vista previa de la página</h2>
-
-[![Caba-as-Deluxe-Google-Chrome-25-10-2023-17-54-44.png](https://i.postimg.cc/BQ1cpYL7/Caba-as-Deluxe-Google-Chrome-25-10-2023-17-54-44.png)](https://postimg.cc/yksZYTT0)
-
-[![Caba-as-Deluxe-Google-Chrome-25-10-2023-17-55-07.png](https://i.postimg.cc/KjC7FLV5/Caba-as-Deluxe-Google-Chrome-25-10-2023-17-55-07.png)](https://postimg.cc/QKkKJBjB)
-
-[![Caba-as-Deluxe-Google-Chrome-25-10-2023-17-55-35.png](https://i.postimg.cc/W1GmLd7M/Caba-as-Deluxe-Google-Chrome-25-10-2023-17-55-35.png)](https://postimg.cc/PCqv1r9x)
-
-[![Caba-as-Deluxe-Google-Chrome-25-10-2023-17-55-44.png](https://i.postimg.cc/WpywML3J/Caba-as-Deluxe-Google-Chrome-25-10-2023-17-55-44.png)](https://postimg.cc/c6Q3Szfs)
-
-[![Caba-as-Deluxe-Google-Chrome-25-10-2023-17-56-02.png](https://i.postimg.cc/PqdWtd60/Caba-as-Deluxe-Google-Chrome-25-10-2023-17-56-02.png)](https://postimg.cc/3kb41QQZ)
-
-[![Caba-as-Deluxe-Google-Chrome-25-10-2023-17-56-21.png](https://i.postimg.cc/CxTCQGbh/Caba-as-Deluxe-Google-Chrome-25-10-2023-17-56-21.png)](https://postimg.cc/XpLyZy2m)
-
-[![Caba-as-Deluxe-Google-Chrome-25-10-2023-17-56-41.png](https://i.postimg.cc/cH9M9PB2/Caba-as-Deluxe-Google-Chrome-25-10-2023-17-56-41.png)](https://postimg.cc/9R97z8SY)
-
-
-
-
